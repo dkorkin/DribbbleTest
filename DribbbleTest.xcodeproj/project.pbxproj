@@ -79,6 +79,7 @@
 		01A8FBF2188D620000E561A1 /* ABFavoriteBadge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A8FBEF188D620000E561A1 /* ABFavoriteBadge@2x.png */; };
 		01A8FBF3188D620000E561A1 /* settings-icon1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A8FBF0188D620000E561A1 /* settings-icon1@2x.png */; };
 		01A8FBF4188D620000E561A1 /* MobileMailSettings_mailbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A8FBF1188D620000E561A1 /* MobileMailSettings_mailbox@2x.png */; };
+		01A8FBF8188D647300E561A1 /* SettingsViewControllerSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FBF7188D647300E561A1 /* SettingsViewControllerSpecs.m */; };
 		71336BCF02194697889BA12C /* libPods-DribbbleTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4BE03D46484004A561CBC0 /* libPods-DribbbleTestTests.a */; };
 		82B80B5A03344E08996B4CA4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F321DA354D074F5386E51019 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -174,6 +175,7 @@
 		01A8FBEF188D620000E561A1 /* ABFavoriteBadge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ABFavoriteBadge@2x.png"; sourceTree = "<group>"; };
 		01A8FBF0188D620000E561A1 /* settings-icon1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-icon1@2x.png"; sourceTree = "<group>"; };
 		01A8FBF1188D620000E561A1 /* MobileMailSettings_mailbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MobileMailSettings_mailbox@2x.png"; sourceTree = "<group>"; };
+		01A8FBF7188D647300E561A1 /* SettingsViewControllerSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewControllerSpecs.m; sourceTree = "<group>"; };
 		2A4BE03D46484004A561CBC0 /* libPods-DribbbleTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DribbbleTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5BF29A5954421EB55C9C13 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		A233A7F7309A4BC0BEF61FC6 /* Pods-DribbbleTestTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbbleTestTests.xcconfig"; path = "Pods/Pods-DribbbleTestTests.xcconfig"; sourceTree = "<group>"; };
@@ -269,6 +271,7 @@
 		01A8FAFA188D335200E561A1 /* DribbbleTestTests */ = {
 			isa = PBXGroup;
 			children = (
+				01A8FBF5188D63F000E561A1 /* ViewControllers */,
 				01A8FB00188D335200E561A1 /* DribbbleTestTests.m */,
 				01A8FAFB188D335200E561A1 /* Supporting Files */,
 			);
@@ -422,6 +425,22 @@
 				01A8FBF1188D620000E561A1 /* MobileMailSettings_mailbox@2x.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		01A8FBF5188D63F000E561A1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				01A8FBF6188D644800E561A1 /* SettingsViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		01A8FBF6188D644800E561A1 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				01A8FBF7188D647300E561A1 /* SettingsViewControllerSpecs.m */,
+			);
+			name = SettingsViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -655,6 +674,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A8FBF8188D647300E561A1 /* SettingsViewControllerSpecs.m in Sources */,
 				01A8FB01188D335200E561A1 /* DribbbleTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

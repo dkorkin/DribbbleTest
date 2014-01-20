@@ -6,6 +6,7 @@ cProcessInfoPlistFile /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Bu
 cPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Script-0917A94BEFE74DE387BA989D.sh
 cProcessPCH /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/PrecompiledHeaders/DribbbleTest-Prefix-gmsaniuilditrjadobuvnlgbwlvg/DribbbleTest-Prefix.pch.pch DribbbleTest/DribbbleTest-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/DribbbleTestTests.o /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTestTests/DribbbleTestTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/SettingsViewControllerSpecs.o /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTestTests/SettingsViewControllerSpecs.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTests normal i386
 cGenerateDSYMFile /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest.dSYM /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTests
 cCopyStringsFile /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/en.lproj/InfoPlist.strings DribbbleTestTests/en.lproj/InfoPlist.strings
@@ -228,13 +229,17 @@ t1383568543
 s20484
 
 N/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/DribbbleTestTests.LinkFileList
-c0000000052DD215B00000000000000B5
-t1390223707
-s181
+c0000000052DD2D000000000000000174
+t1390226688
+s372
 
 N/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/DribbbleTestTests.o
 t1390223882
 s12508
+
+N/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/SettingsViewControllerSpecs.o
+t1390226690
+s108764
 
 N/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Script-0917A94BEFE74DE387BA989D.sh
 c0000000052DD215B0000000000000103
@@ -264,16 +269,16 @@ t1390225879
 s920692
 
 N/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest
-t1390225890
+t1390226690
 s204
 
 N/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest.dSYM
-t1390223882
+t1390225890
 s102
 
 N/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTests
-t1390225890
-s580396
+t1390226690
+s624900
 
 N/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/Info.plist
 t1390223707
@@ -302,6 +307,11 @@ N/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTestTests/Dribb
 c0000000052DCFFF6000000000000017B
 t1390215158
 s379
+
+N/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTestTests/SettingsViewControllerSpecs.m
+c0000000052D0089E0000000000001F1E
+t1389365406
+s7966
 
 N/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTestTests/en.lproj/InfoPlist.strings
 c0000000052DCFBD2000000000000002D
@@ -337,6 +347,11 @@ N/usr/lib/system/libdnsinfo.dylib
 c0000000052778CC6000000000000C2A0
 t1383566534
 s49824
+
+N/usr/lib/system/libdyld.dylib
+c00000000513F5B2900000000000121D0
+t1363106601
+s74192
 
 N/usr/lib/system/libkeymgr.dylib
 c00000000513F5B290000000000008CE0
@@ -419,9 +434,12 @@ r0
 CBuild AST from /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTestTests/DribbbleTestTests.m
 r0
 
+CBuild AST from /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTestTests/SettingsViewControllerSpecs.m
+r0
+
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies11ffbc62618db841^eb54bd62618db841^---0#1#1#--18"Check dependencies36"055C6865-D8F1-4AB0-809D-05123681AFF7-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf5a07480648db841^08017580648db841^---0#1#1#--18"Check dependencies36"2114837E-A9F7-470E-91F1-A39EDBFD24C8-
 
 CCompileC Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/DribbbleTestTests.o /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTestTests/DribbbleTestTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s411916682.052554
@@ -438,6 +456,24 @@ d/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTestTests/Dribb
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTestTests/DribbbleTestTests.m239"CompileC Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/DribbbleTestTests.o DribbbleTestTests/DribbbleTestTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilereb8e0d8a598db841^19ab198a598db841^---0#0#1#-19%DVTDocumentLocation2@109"file://localhost/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTestTests/DribbbleTestTests.m0000000000000000^5920"CompileC Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/DribbbleTestTests.o DribbbleTestTests/DribbbleTestTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/dkorkin/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/DribbbleTestTests-generated-files.hmap -I/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/DribbbleTestTests-own-target-headers.hmap -I/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/DribbbleTestTests-all-target-headers.hmap -iquote /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/DribbbleTestTests-project-headers.hmap -I/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/include -I/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Headers -I/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Headers/AFNetworking -I/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Headers/Kiwi -I/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Headers/MagicalRecord -I/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Headers/SBJson -I/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/DerivedSources/i386 -I/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/DerivedSources -F/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -isystem/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Headers -isystem/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Headers/AFNetworking -isystem/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Headers/Kiwi -isystem/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Headers/MagicalRecord -isystem/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Headers/SBJson -include /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/PrecompiledHeaders/DribbbleTest-Prefix-gmsaniuilditrjadobuvnlgbwlvg/DribbbleTest-Prefix.pch -MMD -MT dependencies -MF /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/DribbbleTestTests.d --serialize-diagnostics /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/DribbbleTestTests.dia -c /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTestTests/DribbbleTestTests.m -o /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/DribbbleTestTests.o36"6903E938-76D3-4B08-BD1F-458BCE24D7B3-
 b812B5C9D-18FA-414C-B337-16B529ADDC2E
 
+CCompileC Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/SettingsViewControllerSpecs.o /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTestTests/SettingsViewControllerSpecs.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411919488.485362
+e411919490.013604
+r1
+xCompileC
+xBuild/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/SettingsViewControllerSpecs.o
+x/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTestTests/SettingsViewControllerSpecs.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTestTests/SettingsViewControllerSpecs.m
+d/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTest/UIApplication+BuildVersion.h
+d/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTest/SettingsViewController.h
+d/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTest/SettingsViewController_Private.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTestTests/SettingsViewControllerSpecs.m259"CompileC Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/SettingsViewControllerSpecs.o DribbbleTestTests/SettingsViewControllerSpecs.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd55a7c80648db841^137c0382648db841^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTestTests/SettingsViewControllerSpecs.m0000000000000000^5980"CompileC Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/SettingsViewControllerSpecs.o DribbbleTestTests/SettingsViewControllerSpecs.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/dkorkin/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/DribbbleTestTests-generated-files.hmap -I/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/DribbbleTestTests-own-target-headers.hmap -I/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/DribbbleTestTests-all-target-headers.hmap -iquote /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/DribbbleTestTests-project-headers.hmap -I/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/include -I/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Headers -I/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Headers/AFNetworking -I/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Headers/Kiwi -I/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Headers/MagicalRecord -I/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Headers/SBJson -I/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/DerivedSources/i386 -I/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/DerivedSources -F/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -isystem/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Headers -isystem/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Headers/AFNetworking -isystem/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Headers/Kiwi -isystem/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Headers/MagicalRecord -isystem/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Headers/SBJson -include /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/PrecompiledHeaders/DribbbleTest-Prefix-gmsaniuilditrjadobuvnlgbwlvg/DribbbleTest-Prefix.pch -MMD -MT dependencies -MF /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/SettingsViewControllerSpecs.d --serialize-diagnostics /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/SettingsViewControllerSpecs.dia -c /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTestTests/SettingsViewControllerSpecs.m -o /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/SettingsViewControllerSpecs.o36"7AE35F70-CF2E-4A10-9728-2504620A37AF-
+b73548B72-9311-4B72-8B97-91109DB7A31E
+
 CCopyStringsFile /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/en.lproj/InfoPlist.strings DribbbleTestTests/en.lproj/InfoPlist.strings
 s411916508.075713
 e411916508.077816
@@ -449,18 +485,18 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy Dr
 b60CC6DDB-1AD8-457A-B7F4-E47A1D8E3855
 
 CGenerateDSYMFile /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest.dSYM /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTests
-s411918690.876297
-e411918690.936821
+s411919490.118693
+e411919490.186818
 r1
 xGenerateDSYMFile
 x/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest.dSYM
 x/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTests
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Generate /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest.dSYM163"GenerateDSYMFile Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest.dSYM Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTestsae63e062618db841^c3d3ef62618db841^---0#0#1#-19%DVTDocumentLocation2@139"file://localhost/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest.dSYM/0000000000000000^784"GenerateDSYMFile Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest.dSYM Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTests    cd /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTests -o /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest.dSYM36"786689E5-669F-4693-A124-DD78708533D0-
-bAE9AD570-6C05-43DC-9E5C-BB9E13ED260C
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Generate /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest.dSYM163"GenerateDSYMFile Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest.dSYM Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTests04711e82648db841^e5d32f82648db841^---0#0#1#-19%DVTDocumentLocation2@139"file://localhost/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest.dSYM/0000000000000000^784"GenerateDSYMFile Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest.dSYM Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTests    cd /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTests -o /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest.dSYM36"67D89E0B-4232-4052-9CDC-B680C483B883-
+b73548B72-9311-4B72-8B97-91109DB7A31E
 
 CLd /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTests normal i386
-s411918690.771441
-e411918690.867646
+s411919490.023175
+e411919490.110647
 r1
 xLd
 x/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTests
@@ -469,6 +505,7 @@ xi386
 d/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/DribbbleTestTests.LinkFileList
 d/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTest.app/DribbbleTest
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/bundle1.o
+d/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/SettingsViewControllerSpecs.o
 d/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/DribbbleTestTests.o
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks/XCTest.framework/XCTest
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
@@ -480,13 +517,12 @@ d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
@@ -508,12 +544,13 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
 d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
 d/usr/lib/system/libcache.dylib
 d/usr/lib/system/libcommonCrypto.dylib
 d/usr/lib/system/libcompiler_rt.dylib
 d/usr/lib/system/libcopyfile.dylib
 d/usr/lib/system/libdnsinfo.dylib
-d/usr/lib/system/libdyld.dylib
 d/usr/lib/system/libkeymgr.dylib
 d/usr/lib/system/liblaunch.dylib
 d/usr/lib/system/libmacho.dylib
@@ -529,23 +566,22 @@ d/usr/lib/system/libsystem_notify.dylib
 d/usr/lib/system/libsystem_sandbox.dylib
 d/usr/lib/system/libunc.dylib
 d/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Link /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTests94"Ld Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTests normal i3865c90c562618db841^c51ede62618db841^---0#0#1#--2812"Ld Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTests normal i386    cd /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator -F/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -filelist /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/DribbbleTestTests.LinkFileList -bundle_loader /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTest.app/DribbbleTest -Xlinker -objc_abi_version -Xlinker 2 -ObjC -framework XCTest -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework XCTest -framework UIKit -framework Foundation -lPods-DribbbleTestTests -Xlinker -dependency_info -Xlinker /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/DribbbleTestTests_dependency_info.dat -o /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTests36"D50B476D-3094-406A-AF60-6440B763F379-
-bAE9AD570-6C05-43DC-9E5C-BB9E13ED260C
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Link /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTests94"Ld Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTests normal i38626010682648db841^f4531c82648db841^---0#0#1#--2812"Ld Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTests normal i386    cd /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator -F/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -filelist /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/DribbbleTestTests.LinkFileList -bundle_loader /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTest.app/DribbbleTest -Xlinker -objc_abi_version -Xlinker 2 -ObjC -framework XCTest -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework XCTest -framework UIKit -framework Foundation -lPods-DribbbleTestTests -Xlinker -dependency_info -Xlinker /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Objects-normal/i386/DribbbleTestTests_dependency_info.dat -o /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/DribbbleTestTests36"F348D420-2079-4E9E-85DD-F1C5B297D91B-
+b73548B72-9311-4B72-8B97-91109DB7A31E
 
 CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Script-0917A94BEFE74DE387BA989D.sh
-s411918690.743166
-e411918690.758745
+s411919488.460694
+e411919488.475418
 r1
 xPhaseScriptExecution
 xCheck Pods Manifest.lock
 x/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Script-0917A94BEFE74DE387BA989D.sh
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'167"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Script-0917A94BEFE74DE387BA989D.sh419dbe62618db841^b43dc262618db841^---0#0#1#--422"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Script-0917A94BEFE74DE387BA989D.sh    cd /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest    /bin/sh -c /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Script-0917A94BEFE74DE387BA989D.sh36"74FE5EA9-C1F1-495B-AA45-27A7879283DD-
-bAE9AD570-6C05-43DC-9E5C-BB9E13ED260C
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'167"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Script-0917A94BEFE74DE387BA989D.sh334f7680648db841^b7b57980648db841^---0#0#1#--422"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Script-0917A94BEFE74DE387BA989D.sh    cd /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest    /bin/sh -c /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Script-0917A94BEFE74DE387BA989D.sh36"776D7A1D-738A-4023-B233-D1F3A796CB1E-
+b73548B72-9311-4B72-8B97-91109DB7A31E
 
 CPhaseScriptExecution Copy\ Pods\ Resources /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Script-3C8208ABC01D468DB578CE04.sh
-s411918690.947217
-e411918691.232465
+s411919490.197090
+e411919490.481058
 r1
 xPhaseScriptExecution
 xCopy Pods Resources
@@ -557,8 +593,8 @@ ototal size is 0  speedup is 0.00
 o/* com.apple.actool.compilation-results */
 o/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/Assets.car
 o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'162"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Script-3C8208ABC01D468DB578CE04.shd7dff262618db841^5a833b63618db841^-285"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.00/* com.apple.actool.compilation-results *//Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/Assets.car5(21%IDEActivityLogMessage2@28"building file list ... done-411918690#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-411918691#29#50#-0#-----2@33"total size is 0  speedup is 0.00-411918691#79#33#-0#-----2@43"/* com.apple.actool.compilation-results */-411918691#112#43#-0#-----2@129"/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/Assets.car-411918691#155#129#-0#-----0#0#1#--417"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Script-3C8208ABC01D468DB578CE04.sh    cd /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest    /bin/sh -c /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Script-3C8208ABC01D468DB578CE04.sh36"3B338A48-D056-46A8-8C47-DDB03ABAA8C0-
-bAE9AD570-6C05-43DC-9E5C-BB9E13ED260C
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'162"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Script-3C8208ABC01D468DB578CE04.sh49d53282648db841^24277b82648db841^-285"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.00/* com.apple.actool.compilation-results *//Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/Assets.car5(21%IDEActivityLogMessage2@28"building file list ... done-411919490#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-411919490#29#50#-0#-----2@33"total size is 0  speedup is 0.00-411919490#79#33#-0#-----2@43"/* com.apple.actool.compilation-results */-411919490#112#43#-0#-----2@129"/Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/Assets.car-411919490#155#129#-0#-----0#0#1#--417"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Script-3C8208ABC01D468DB578CE04.sh    cd /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest    /bin/sh -c /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/DribbbleTest.build/Debug-iphonesimulator/DribbbleTestTests.build/Script-3C8208ABC01D468DB578CE04.sh36"91D546B0-CFC8-467B-BE53-F817CFD1E369-
+b73548B72-9311-4B72-8B97-91109DB7A31E
 
 CProcessInfoPlistFile /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Products/Debug-iphonesimulator/DribbbleTestTests.xctest/Info.plist /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTestTests/DribbbleTestTests-Info.plist
 s411916507.775908
