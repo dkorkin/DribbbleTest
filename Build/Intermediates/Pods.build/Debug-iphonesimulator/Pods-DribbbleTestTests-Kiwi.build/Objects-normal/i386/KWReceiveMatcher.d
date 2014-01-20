@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Kiwi/Classes/Matchers/KWReceiveMatcher.m \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Kiwi/Classes/Matchers/KWReceiveMatcher.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Kiwi/Classes/Core/KiwiConfiguration.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Kiwi/Classes/Core/KWCountType.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Kiwi/Classes/Core/KWMatcher.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Kiwi/Classes/Core/KWMatching.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Kiwi/Classes/Verifiers/KWMatchVerifier.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Kiwi/Classes/Core/KWExpectationType.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Kiwi/Classes/Verifiers/KWVerifying.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Kiwi/Classes/Core/KWFormatter.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Kiwi/Classes/Core/KWInvocationCapturer.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Kiwi/NonARC/KWMessagePattern.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Kiwi/Classes/Core/KWMessageTracker.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Kiwi/Classes/Core/KWMessageSpying.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Kiwi/Classes/Core/KWObjCUtilities.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Kiwi/Classes/Core/KWStringUtilities.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Kiwi/Classes/Core/KWWorkarounds.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Kiwi/Classes/Stubbing/NSObject+KiwiStubAdditions.h
