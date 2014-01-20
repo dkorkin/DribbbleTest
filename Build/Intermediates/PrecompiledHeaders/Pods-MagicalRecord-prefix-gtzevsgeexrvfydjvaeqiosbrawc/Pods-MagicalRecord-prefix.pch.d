@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Pods-MagicalRecord-prefix.pch \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Pods-environment.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/CoreData+MagicalRecord.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Core/MagicalRecordShorthand.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalSaves.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Core/MagicalRecord.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Core/MagicalRecord+Actions.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Core/MagicalRecord+ErrorHandling.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Core/MagicalRecord+Options.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Core/MagicalRecord+ShorthandSupport.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Core/MagicalRecord+Setup.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Core/MagicalRecord+iCloud.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRecord.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRequests.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalFinders.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalAggregation.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalObserving.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Categories/NSPersistentStoreCoordinator+MagicalRecord.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Categories/NSPersistentStore+MagicalRecord.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObjectModel+MagicalRecord.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Categories/DataImport/MagicalImportFunctions.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalDataImport.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Categories/DataImport/NSNumber+MagicalDataImport.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Categories/DataImport/NSObject+MagicalDataImport.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Categories/DataImport/NSString+MagicalDataImport.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Categories/DataImport/NSAttributeDescription+MagicalDataImport.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Categories/DataImport/NSRelationshipDescription+MagicalDataImport.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/MagicalRecord/MagicalRecord/Categories/DataImport/NSEntityDescription+MagicalDataImport.h
