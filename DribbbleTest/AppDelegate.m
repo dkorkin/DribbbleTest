@@ -16,7 +16,33 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    self.tabBarController = [self tabBarControllerInitialisationWithItems:[self tabBarItems]];
+    self.window.rootViewController = self.tabBarController;
     return YES;
+}
+
+-(UITabBarController*) tabBarControllerInitialisationWithItems:(NSArray *)items {
+    UITabBarController *tabBarVC = [[UITabBarController alloc] init];
+    tabBarVC.tabBar.tintColor = [UIColor blackColor];
+    tabBarVC.viewControllers = items;
+    return tabBarVC;
+}
+
+-(NSArray *) tabBarItems {
+//    ShotViewController *shotVC = [ShotViewController new];
+//    shotVC.tabBarItem.title = @"Shots";
+//    shotVC.tabBarItem.image = [UIImage imageNamed:@"MobileMailSettings_mailbox@2x"];
+//    
+//    FavoritesViewController *favoritesVC = [FavoritesViewController new];
+//    favoritesVC.tabBarItem.title = @"Favorites";
+//    favoritesVC.tabBarItem.image = [UIImage imageNamed:@"ABFavoriteBadge@2x"];
+    
+    SettingsViewController *settingsVC = [SettingsViewController new];
+    settingsVC.tabBarItem.title = @"Settings";
+    settingsVC.tabBarItem.image = [UIImage imageNamed:@"settings-icon1@2x"];
+    
+    return [[NSArray alloc]initWithObjects:settingsVC,nil];
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
