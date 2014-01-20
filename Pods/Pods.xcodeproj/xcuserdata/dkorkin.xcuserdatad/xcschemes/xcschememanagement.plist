@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-MagicalRecord.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-SBJson.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,27 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>477D5B5C88F44B6082955C72</key>
+		<key>4BE51C27036B42D987CCB2D9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>87B4AC14BF0F4227A76F8A96</key>
+		<key>7FA9808386FA423F9A0F2D1A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BE2A5528204A42659B014550</key>
+		<key>B38E71769907404DBF47AA78</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C7BA8AF9215B465990ABF731</key>
+		<key>C1475AE9056A427EB57DDA4B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DEDD02B55B7D48159BCCA1C8</key>
+		<key>D34F35CED8AC494D89129A6F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D641914EAA9D4123A904ECE6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

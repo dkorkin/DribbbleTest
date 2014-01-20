@@ -22,16 +22,19 @@ PODS:
   - Kiwi/XCTest (2.2.3):
     - Kiwi/ARC
     - Kiwi/NonARC
+  - MagicalRecord (2.2)
   - SBJson (4.0.0)
 
 DEPENDENCIES:
   - AFNetworking
   - Kiwi/XCTest
+  - MagicalRecord
   - SBJson
 
 SPEC CHECKSUMS:
   AFNetworking: c7d7901a83f631414c7eda1737261f696101a5cd
   Kiwi: 04c51e880831d291748ec702d42c4101f7eb95c9
+  MagicalRecord: b1fc46c99a9749fe7fe7e6f43a89b62ef5201933
   SBJson: f3c686806e8e36ab89e020189ac582ba26ec4220
 
 COCOAPODS: 0.29.0

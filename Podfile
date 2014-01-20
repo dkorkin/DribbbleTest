@@ -6,6 +6,7 @@ platform :ios, '6.0'
 
 pod 'AFNetworking'
 pod 'SBJson'
+pod 'MagicalRecord'
 
 # If you're using Xcode 5 with a brand new project
 # (XCTest based instead of OCUnit based) use this instead:
