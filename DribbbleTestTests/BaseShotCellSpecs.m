@@ -61,14 +61,6 @@ describe(@"Base Shot Cell",^{
                     [shotCell.shotImageView.image shouldBeNil];
                 });
             });
-            context(@"when image file get from shot", ^{
-                it(@"shouldn't be nil", ^{
-                    shot.imageName = @"1.jpg";
-                    shotCell.shot = shot;
-                    [shotCell redraw];
-                    [shotCell.shotImageView.image shouldNotBeNil];
-                });
-            });
         });
         
         describe(@"Shot Label", ^{

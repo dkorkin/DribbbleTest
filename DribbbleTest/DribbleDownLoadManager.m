@@ -27,7 +27,7 @@ NSInteger const kShotsPerPage = 25;
 - (void)testRequest {
     NSURL *baseUrl = [NSURL URLWithString:@"http://localhost:8080"];
     AFHTTPRequestOperationManager *manager = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:baseUrl];
-
+    
     [manager GET:@"/everyone"
       parameters:nil
          success:^(AFHTTPRequestOperation *operation, id responseObject) {
@@ -61,15 +61,15 @@ NSInteger const kShotsPerPage = 25;
     AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
     
     [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
-
+        
         NSError *e = nil;
         NSDictionary *jsonDictionary = [NSJSONSerialization JSONObjectWithData: responseObject
                                                                        options: NSJSONReadingMutableContainers
                                                                          error: &e];
-
+        
         NSArray *shots = [jsonDictionary objectForKey:@"shots"];
         [self dateBaseFiller:shots];
-       
+        
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"%s: AFHTTPRequestOperation error: %@", __FUNCTION__, error);
     }];

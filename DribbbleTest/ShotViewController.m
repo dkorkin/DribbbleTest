@@ -37,6 +37,9 @@ NSString *const kShotsPlist = @"ShotsPList";
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
+    if([_shots count] == 0) {
+        _shots = [[DataBaseManager sharedInstance] shotsArrayFromDataBase];
+    }
     [self.tableView reloadData];
 }
 
