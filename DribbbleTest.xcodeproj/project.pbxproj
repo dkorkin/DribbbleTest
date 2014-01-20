@@ -92,6 +92,9 @@
 		01A8FC1B188D685D00E561A1 /* Shot.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC19188D685D00E561A1 /* Shot.m */; };
 		01A8FC1C188D685D00E561A1 /* ShotDataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC1A188D685D00E561A1 /* ShotDataModel.xcdatamodel */; };
 		01A8FC21188D68B500E561A1 /* ImageFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC20188D68B500E561A1 /* ImageFileManager.m */; };
+		01A8FC28188D6A0C00E561A1 /* BaseShotCellSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC27188D6A0C00E561A1 /* BaseShotCellSpecs.m */; };
+		01A8FC2A188D6A1300E561A1 /* DeleteShotCellSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC29188D6A1300E561A1 /* DeleteShotCellSpecs.m */; };
+		01A8FC2C188D6A1D00E561A1 /* StarShotCellSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC2B188D6A1D00E561A1 /* StarShotCellSpecs.m */; };
 		71336BCF02194697889BA12C /* libPods-DribbbleTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4BE03D46484004A561CBC0 /* libPods-DribbbleTestTests.a */; };
 		82B80B5A03344E08996B4CA4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F321DA354D074F5386E51019 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -208,6 +211,9 @@
 		01A8FC1A188D685D00E561A1 /* ShotDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShotDataModel.xcdatamodel; sourceTree = "<group>"; };
 		01A8FC1F188D68B500E561A1 /* ImageFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFileManager.h; sourceTree = "<group>"; };
 		01A8FC20188D68B500E561A1 /* ImageFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFileManager.m; sourceTree = "<group>"; };
+		01A8FC27188D6A0C00E561A1 /* BaseShotCellSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseShotCellSpecs.m; sourceTree = "<group>"; };
+		01A8FC29188D6A1300E561A1 /* DeleteShotCellSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteShotCellSpecs.m; sourceTree = "<group>"; };
+		01A8FC2B188D6A1D00E561A1 /* StarShotCellSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarShotCellSpecs.m; sourceTree = "<group>"; };
 		2A4BE03D46484004A561CBC0 /* libPods-DribbbleTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DribbbleTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5BF29A5954421EB55C9C13 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		A233A7F7309A4BC0BEF61FC6 /* Pods-DribbbleTestTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbbleTestTests.xcconfig"; path = "Pods/Pods-DribbbleTestTests.xcconfig"; sourceTree = "<group>"; };
@@ -305,6 +311,7 @@
 		01A8FAFA188D335200E561A1 /* DribbbleTestTests */ = {
 			isa = PBXGroup;
 			children = (
+				01A8FC22188D69C100E561A1 /* Views */,
 				01A8FBF5188D63F000E561A1 /* ViewControllers */,
 				01A8FB00188D335200E561A1 /* DribbbleTestTests.m */,
 				01A8FAFB188D335200E561A1 /* Supporting Files */,
@@ -553,6 +560,7 @@
 		01A8FC1D188D688900E561A1 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				01A8FC2D188D6E1200E561A1 /* DribbleDownLoadManager */,
 				01A8FC1E188D68A500E561A1 /* ImageFileManager */,
 			);
 			name = Managers;
@@ -565,6 +573,55 @@
 				01A8FC20188D68B500E561A1 /* ImageFileManager.m */,
 			);
 			name = ImageFileManager;
+			sourceTree = "<group>";
+		};
+		01A8FC22188D69C100E561A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01A8FC23188D69D100E561A1 /* ShotCells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		01A8FC23188D69D100E561A1 /* ShotCells */ = {
+			isa = PBXGroup;
+			children = (
+				01A8FC26188D69FA00E561A1 /* BaseShotCell */,
+				01A8FC25188D69E900E561A1 /* DeleteShotCell */,
+				01A8FC24188D69DF00E561A1 /* StarShotCell */,
+			);
+			name = ShotCells;
+			sourceTree = "<group>";
+		};
+		01A8FC24188D69DF00E561A1 /* StarShotCell */ = {
+			isa = PBXGroup;
+			children = (
+				01A8FC2B188D6A1D00E561A1 /* StarShotCellSpecs.m */,
+			);
+			name = StarShotCell;
+			sourceTree = "<group>";
+		};
+		01A8FC25188D69E900E561A1 /* DeleteShotCell */ = {
+			isa = PBXGroup;
+			children = (
+				01A8FC29188D6A1300E561A1 /* DeleteShotCellSpecs.m */,
+			);
+			name = DeleteShotCell;
+			sourceTree = "<group>";
+		};
+		01A8FC26188D69FA00E561A1 /* BaseShotCell */ = {
+			isa = PBXGroup;
+			children = (
+				01A8FC27188D6A0C00E561A1 /* BaseShotCellSpecs.m */,
+			);
+			name = BaseShotCell;
+			sourceTree = "<group>";
+		};
+		01A8FC2D188D6E1200E561A1 /* DribbleDownLoadManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DribbleDownLoadManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -812,6 +869,9 @@
 			files = (
 				01A8FBF8188D647300E561A1 /* SettingsViewControllerSpecs.m in Sources */,
 				01A8FB01188D335200E561A1 /* DribbbleTestTests.m in Sources */,
+				01A8FC28188D6A0C00E561A1 /* BaseShotCellSpecs.m in Sources */,
+				01A8FC2A188D6A1300E561A1 /* DeleteShotCellSpecs.m in Sources */,
+				01A8FC2C188D6A1D00E561A1 /* StarShotCellSpecs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
