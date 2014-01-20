@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OldShot.h"
 #import "Shot.h"
 
 FOUNDATION_EXPORT CGFloat const kShotImageTopAndBottomMargin;

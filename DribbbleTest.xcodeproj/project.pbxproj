@@ -80,7 +80,6 @@
 		01A8FBF3188D620000E561A1 /* settings-icon1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A8FBF0188D620000E561A1 /* settings-icon1@2x.png */; };
 		01A8FBF4188D620000E561A1 /* MobileMailSettings_mailbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A8FBF1188D620000E561A1 /* MobileMailSettings_mailbox@2x.png */; };
 		01A8FBF8188D647300E561A1 /* SettingsViewControllerSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FBF7188D647300E561A1 /* SettingsViewControllerSpecs.m */; };
-		01A8FC00188D678C00E561A1 /* BaseShotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FBFF188D678C00E561A1 /* BaseShotCell.m */; };
 		01A8FC06188D67AC00E561A1 /* favorbutton-titlelogo-ontap.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A8FC02188D67AC00E561A1 /* favorbutton-titlelogo-ontap.png */; };
 		01A8FC07188D67AC00E561A1 /* favorbutton-titlelogo-ontap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A8FC03188D67AC00E561A1 /* favorbutton-titlelogo-ontap@2x.png */; };
 		01A8FC08188D67AC00E561A1 /* favorites-empty-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A8FC04188D67AC00E561A1 /* favorites-empty-icon.png */; };
@@ -95,15 +94,22 @@
 		01A8FC28188D6A0C00E561A1 /* BaseShotCellSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC27188D6A0C00E561A1 /* BaseShotCellSpecs.m */; };
 		01A8FC2A188D6A1300E561A1 /* DeleteShotCellSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC29188D6A1300E561A1 /* DeleteShotCellSpecs.m */; };
 		01A8FC2C188D6A1D00E561A1 /* StarShotCellSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC2B188D6A1D00E561A1 /* StarShotCellSpecs.m */; };
-		01A8FC30188D6EB400E561A1 /* DribbleDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC2F188D6EB400E561A1 /* DribbleDownLoadManager.m */; };
-		01A8FC34188D6ED500E561A1 /* DataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC33188D6ED500E561A1 /* DataBaseManager.m */; };
 		01A8FC39188D6EF800E561A1 /* FavoritesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC38188D6EF800E561A1 /* FavoritesManager.m */; };
-		01A8FC3E188D6F1400E561A1 /* PListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC3C188D6F1400E561A1 /* PListManager.m */; };
 		01A8FC42188D6F3300E561A1 /* OldShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC41188D6F3300E561A1 /* OldShot.m */; };
 		01A8FC4C188D6FC200E561A1 /* ShotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC49188D6FC200E561A1 /* ShotViewController.m */; };
 		01A8FC4D188D6FC200E561A1 /* ShotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A8FC4B188D6FC200E561A1 /* ShotViewController.xib */; };
 		01A8FC52188D6FCF00E561A1 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC4F188D6FCF00E561A1 /* FavoritesViewController.m */; };
 		01A8FC53188D6FCF00E561A1 /* FavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A8FC51188D6FCF00E561A1 /* FavoritesViewController.xib */; };
+		01A8FC57188D74BD00E561A1 /* FavoritesViewControllerSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC56188D74BD00E561A1 /* FavoritesViewControllerSpecs.m */; };
+		01A8FC59188D74CF00E561A1 /* ShotViewControllerSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC58188D74CF00E561A1 /* ShotViewControllerSpecs.m */; };
+		01A8FC5D188D758A00E561A1 /* DataBaseManagerSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC5C188D758A00E561A1 /* DataBaseManagerSpecs.m */; };
+		01A8FC60188D75C000E561A1 /* PlistManagerSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC5F188D75C000E561A1 /* PlistManagerSpecs.m */; };
+		01A8FC63188D75FE00E561A1 /* FavoritesManagerSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC62188D75FE00E561A1 /* FavoritesManagerSpecs.m */; };
+		01A8FC66188D778900E561A1 /* DribbleDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC65188D778900E561A1 /* DribbleDownLoadManager.m */; };
+		01A8FC69188D77A000E561A1 /* DataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC68188D77A000E561A1 /* DataBaseManager.m */; };
+		01A8FC6C188D77BB00E561A1 /* BaseShotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC6B188D77BB00E561A1 /* BaseShotCell.m */; };
+		01A8FC70188D796D00E561A1 /* PListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8FC6E188D796D00E561A1 /* PListManager.m */; };
+		01A8FC72188D7A5500E561A1 /* ShotsPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01A8FC71188D7A5500E561A1 /* ShotsPList.plist */; };
 		71336BCF02194697889BA12C /* libPods-DribbbleTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4BE03D46484004A561CBC0 /* libPods-DribbbleTestTests.a */; };
 		82B80B5A03344E08996B4CA4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F321DA354D074F5386E51019 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -201,8 +207,6 @@
 		01A8FBF1188D620000E561A1 /* MobileMailSettings_mailbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MobileMailSettings_mailbox@2x.png"; sourceTree = "<group>"; };
 		01A8FBF7188D647300E561A1 /* SettingsViewControllerSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewControllerSpecs.m; sourceTree = "<group>"; };
 		01A8FBFD188D678C00E561A1 /* BaseShotCell_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseShotCell_Private.h; sourceTree = "<group>"; };
-		01A8FBFE188D678C00E561A1 /* BaseShotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseShotCell.h; sourceTree = "<group>"; };
-		01A8FBFF188D678C00E561A1 /* BaseShotCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseShotCell.m; sourceTree = "<group>"; };
 		01A8FC02188D67AC00E561A1 /* favorbutton-titlelogo-ontap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favorbutton-titlelogo-ontap.png"; sourceTree = "<group>"; };
 		01A8FC03188D67AC00E561A1 /* favorbutton-titlelogo-ontap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favorbutton-titlelogo-ontap@2x.png"; sourceTree = "<group>"; };
 		01A8FC04188D67AC00E561A1 /* favorites-empty-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favorites-empty-icon.png"; sourceTree = "<group>"; };
@@ -223,16 +227,9 @@
 		01A8FC27188D6A0C00E561A1 /* BaseShotCellSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseShotCellSpecs.m; sourceTree = "<group>"; };
 		01A8FC29188D6A1300E561A1 /* DeleteShotCellSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteShotCellSpecs.m; sourceTree = "<group>"; };
 		01A8FC2B188D6A1D00E561A1 /* StarShotCellSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarShotCellSpecs.m; sourceTree = "<group>"; };
-		01A8FC2E188D6EB400E561A1 /* DribbleDownLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DribbleDownLoadManager.h; sourceTree = "<group>"; };
-		01A8FC2F188D6EB400E561A1 /* DribbleDownLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DribbleDownLoadManager.m; sourceTree = "<group>"; };
-		01A8FC32188D6ED500E561A1 /* DataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseManager.h; sourceTree = "<group>"; };
-		01A8FC33188D6ED500E561A1 /* DataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseManager.m; sourceTree = "<group>"; };
 		01A8FC36188D6EF800E561A1 /* FavoritesManager_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesManager_Private.h; sourceTree = "<group>"; };
 		01A8FC37188D6EF800E561A1 /* FavoritesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesManager.h; sourceTree = "<group>"; };
 		01A8FC38188D6EF800E561A1 /* FavoritesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesManager.m; sourceTree = "<group>"; };
-		01A8FC3B188D6F1400E561A1 /* PListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PListManager.h; sourceTree = "<group>"; };
-		01A8FC3C188D6F1400E561A1 /* PListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PListManager.m; sourceTree = "<group>"; };
-		01A8FC3D188D6F1400E561A1 /* PListManager_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PListManager_Private.h; sourceTree = "<group>"; };
 		01A8FC40188D6F3300E561A1 /* OldShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldShot.h; sourceTree = "<group>"; };
 		01A8FC41188D6F3300E561A1 /* OldShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldShot.m; sourceTree = "<group>"; };
 		01A8FC45188D6F5600E561A1 /* GCDSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDSingleton.h; sourceTree = "<group>"; };
@@ -244,6 +241,21 @@
 		01A8FC4F188D6FCF00E561A1 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
 		01A8FC50188D6FCF00E561A1 /* FavoritesViewController_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController_Private.h; sourceTree = "<group>"; };
 		01A8FC51188D6FCF00E561A1 /* FavoritesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoritesViewController.xib; sourceTree = "<group>"; };
+		01A8FC56188D74BD00E561A1 /* FavoritesViewControllerSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewControllerSpecs.m; sourceTree = "<group>"; };
+		01A8FC58188D74CF00E561A1 /* ShotViewControllerSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShotViewControllerSpecs.m; sourceTree = "<group>"; };
+		01A8FC5C188D758A00E561A1 /* DataBaseManagerSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseManagerSpecs.m; sourceTree = "<group>"; };
+		01A8FC5F188D75C000E561A1 /* PlistManagerSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistManagerSpecs.m; sourceTree = "<group>"; };
+		01A8FC62188D75FE00E561A1 /* FavoritesManagerSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesManagerSpecs.m; sourceTree = "<group>"; };
+		01A8FC64188D778900E561A1 /* DribbleDownLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DribbleDownLoadManager.h; sourceTree = "<group>"; };
+		01A8FC65188D778900E561A1 /* DribbleDownLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DribbleDownLoadManager.m; sourceTree = "<group>"; };
+		01A8FC67188D77A000E561A1 /* DataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseManager.h; sourceTree = "<group>"; };
+		01A8FC68188D77A000E561A1 /* DataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseManager.m; sourceTree = "<group>"; };
+		01A8FC6A188D77BB00E561A1 /* BaseShotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseShotCell.h; sourceTree = "<group>"; };
+		01A8FC6B188D77BB00E561A1 /* BaseShotCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseShotCell.m; sourceTree = "<group>"; };
+		01A8FC6D188D796D00E561A1 /* PListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PListManager.h; sourceTree = "<group>"; };
+		01A8FC6E188D796D00E561A1 /* PListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PListManager.m; sourceTree = "<group>"; };
+		01A8FC6F188D796D00E561A1 /* PListManager_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PListManager_Private.h; sourceTree = "<group>"; };
+		01A8FC71188D7A5500E561A1 /* ShotsPList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ShotsPList.plist; sourceTree = "<group>"; };
 		2A4BE03D46484004A561CBC0 /* libPods-DribbbleTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DribbbleTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5BF29A5954421EB55C9C13 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		A233A7F7309A4BC0BEF61FC6 /* Pods-DribbbleTestTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbbleTestTests.xcconfig"; path = "Pods/Pods-DribbbleTestTests.xcconfig"; sourceTree = "<group>"; };
@@ -343,6 +355,7 @@
 		01A8FAFA188D335200E561A1 /* DribbbleTestTests */ = {
 			isa = PBXGroup;
 			children = (
+				01A8FC5A188D756F00E561A1 /* Managers */,
 				01A8FC22188D69C100E561A1 /* Views */,
 				01A8FBF5188D63F000E561A1 /* ViewControllers */,
 				01A8FB00188D335200E561A1 /* DribbbleTestTests.m */,
@@ -411,6 +424,7 @@
 		01A8FB80188D612B00E561A1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				01A8FC71188D7A5500E561A1 /* ShotsPList.plist */,
 				01A8FB87188D614300E561A1 /* ShotImages */,
 				01A8FB81188D613900E561A1 /* dribbble_shots_page2.json */,
 				01A8FB82188D613900E561A1 /* dribbble_shots_page1.json */,
@@ -506,6 +520,8 @@
 		01A8FBF5188D63F000E561A1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				01A8FC55188D74AE00E561A1 /* ShotViewController */,
+				01A8FC54188D749F00E561A1 /* FavoritesViewController */,
 				01A8FBF6188D644800E561A1 /* SettingsViewController */,
 			);
 			name = ViewControllers;
@@ -532,9 +548,9 @@
 		01A8FBFA188D675C00E561A1 /* BaseShotCell */ = {
 			isa = PBXGroup;
 			children = (
+				01A8FC6A188D77BB00E561A1 /* BaseShotCell.h */,
+				01A8FC6B188D77BB00E561A1 /* BaseShotCell.m */,
 				01A8FBFD188D678C00E561A1 /* BaseShotCell_Private.h */,
-				01A8FBFE188D678C00E561A1 /* BaseShotCell.h */,
-				01A8FBFF188D678C00E561A1 /* BaseShotCell.m */,
 			);
 			name = BaseShotCell;
 			sourceTree = "<group>";
@@ -657,8 +673,8 @@
 		01A8FC2D188D6E1200E561A1 /* DribbleDownLoadManager */ = {
 			isa = PBXGroup;
 			children = (
-				01A8FC2E188D6EB400E561A1 /* DribbleDownLoadManager.h */,
-				01A8FC2F188D6EB400E561A1 /* DribbleDownLoadManager.m */,
+				01A8FC64188D778900E561A1 /* DribbleDownLoadManager.h */,
+				01A8FC65188D778900E561A1 /* DribbleDownLoadManager.m */,
 			);
 			name = DribbleDownLoadManager;
 			sourceTree = "<group>";
@@ -666,8 +682,8 @@
 		01A8FC31188D6EC800E561A1 /* DataBaseManager */ = {
 			isa = PBXGroup;
 			children = (
-				01A8FC32188D6ED500E561A1 /* DataBaseManager.h */,
-				01A8FC33188D6ED500E561A1 /* DataBaseManager.m */,
+				01A8FC67188D77A000E561A1 /* DataBaseManager.h */,
+				01A8FC68188D77A000E561A1 /* DataBaseManager.m */,
 			);
 			name = DataBaseManager;
 			sourceTree = "<group>";
@@ -685,9 +701,9 @@
 		01A8FC3A188D6F0A00E561A1 /* PlistManager */ = {
 			isa = PBXGroup;
 			children = (
-				01A8FC3B188D6F1400E561A1 /* PListManager.h */,
-				01A8FC3C188D6F1400E561A1 /* PListManager.m */,
-				01A8FC3D188D6F1400E561A1 /* PListManager_Private.h */,
+				01A8FC6D188D796D00E561A1 /* PListManager.h */,
+				01A8FC6E188D796D00E561A1 /* PListManager.m */,
+				01A8FC6F188D796D00E561A1 /* PListManager_Private.h */,
 			);
 			name = PlistManager;
 			sourceTree = "<group>";
@@ -737,6 +753,56 @@
 				01A8FC51188D6FCF00E561A1 /* FavoritesViewController.xib */,
 			);
 			name = FavoritesViewController;
+			sourceTree = "<group>";
+		};
+		01A8FC54188D749F00E561A1 /* FavoritesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				01A8FC56188D74BD00E561A1 /* FavoritesViewControllerSpecs.m */,
+			);
+			name = FavoritesViewController;
+			sourceTree = "<group>";
+		};
+		01A8FC55188D74AE00E561A1 /* ShotViewController */ = {
+			isa = PBXGroup;
+			children = (
+				01A8FC58188D74CF00E561A1 /* ShotViewControllerSpecs.m */,
+			);
+			name = ShotViewController;
+			sourceTree = "<group>";
+		};
+		01A8FC5A188D756F00E561A1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				01A8FC61188D75D500E561A1 /* FavoritesManager */,
+				01A8FC5E188D75B500E561A1 /* PlistManager */,
+				01A8FC5B188D757C00E561A1 /* DataBaseManager */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		01A8FC5B188D757C00E561A1 /* DataBaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				01A8FC5C188D758A00E561A1 /* DataBaseManagerSpecs.m */,
+			);
+			name = DataBaseManager;
+			sourceTree = "<group>";
+		};
+		01A8FC5E188D75B500E561A1 /* PlistManager */ = {
+			isa = PBXGroup;
+			children = (
+				01A8FC5F188D75C000E561A1 /* PlistManagerSpecs.m */,
+			);
+			name = PlistManager;
+			sourceTree = "<group>";
+		};
+		01A8FC61188D75D500E561A1 /* FavoritesManager */ = {
+			isa = PBXGroup;
+			children = (
+				01A8FC62188D75FE00E561A1 /* FavoritesManagerSpecs.m */,
+			);
+			name = FavoritesManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -825,6 +891,7 @@
 				01A8FAE6188D335200E561A1 /* InfoPlist.strings in Resources */,
 				01A8FBDC188D615300E561A1 /* 34.jpg in Resources */,
 				01A8FBCF188D615300E561A1 /* 21.jpg in Resources */,
+				01A8FC72188D7A5500E561A1 /* ShotsPList.plist in Resources */,
 				01A8FBC8188D615300E561A1 /* 14.jpg in Resources */,
 				01A8FBE1188D615300E561A1 /* 39.jpg in Resources */,
 				01A8FC09188D67AC00E561A1 /* favorites-empty-icon@2x.png in Resources */,
@@ -972,16 +1039,16 @@
 				01A8FC21188D68B500E561A1 /* ImageFileManager.m in Sources */,
 				01A8FB75188D608000E561A1 /* SettingsViewController.m in Sources */,
 				01A8FAEC188D335200E561A1 /* AppDelegate.m in Sources */,
-				01A8FC3E188D6F1400E561A1 /* PListManager.m in Sources */,
+				01A8FC66188D778900E561A1 /* DribbleDownLoadManager.m in Sources */,
+				01A8FC69188D77A000E561A1 /* DataBaseManager.m in Sources */,
+				01A8FC70188D796D00E561A1 /* PListManager.m in Sources */,
 				01A8FC0D188D67BB00E561A1 /* StarShotCell.m in Sources */,
-				01A8FC30188D6EB400E561A1 /* DribbleDownLoadManager.m in Sources */,
+				01A8FC6C188D77BB00E561A1 /* BaseShotCell.m in Sources */,
 				01A8FC39188D6EF800E561A1 /* FavoritesManager.m in Sources */,
-				01A8FC34188D6ED500E561A1 /* DataBaseManager.m in Sources */,
 				01A8FC1B188D685D00E561A1 /* Shot.m in Sources */,
 				01A8FC16188D67F100E561A1 /* DeleteShotCell.m in Sources */,
 				01A8FB7C188D60B900E561A1 /* UIApplication+BuildVersion.m in Sources */,
 				01A8FC52188D6FCF00E561A1 /* FavoritesViewController.m in Sources */,
-				01A8FC00188D678C00E561A1 /* BaseShotCell.m in Sources */,
 				01A8FC4C188D6FC200E561A1 /* ShotViewController.m in Sources */,
 				01A8FAE8188D335200E561A1 /* main.m in Sources */,
 			);
@@ -996,6 +1063,11 @@
 				01A8FC28188D6A0C00E561A1 /* BaseShotCellSpecs.m in Sources */,
 				01A8FC2A188D6A1300E561A1 /* DeleteShotCellSpecs.m in Sources */,
 				01A8FC2C188D6A1D00E561A1 /* StarShotCellSpecs.m in Sources */,
+				01A8FC59188D74CF00E561A1 /* ShotViewControllerSpecs.m in Sources */,
+				01A8FC57188D74BD00E561A1 /* FavoritesViewControllerSpecs.m in Sources */,
+				01A8FC5D188D758A00E561A1 /* DataBaseManagerSpecs.m in Sources */,
+				01A8FC63188D75FE00E561A1 /* FavoritesManagerSpecs.m in Sources */,
+				01A8FC60188D75C000E561A1 /* PlistManagerSpecs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

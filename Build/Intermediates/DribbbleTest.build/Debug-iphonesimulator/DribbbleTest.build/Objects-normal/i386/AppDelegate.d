@@ -7,4 +7,5 @@ dependencies: \
   /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTest/Shot.h \
   /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTest/ShotViewController.h \
   /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTest/StarShotCell.h \
-  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTest/SettingsViewController.h
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTest/SettingsViewController.h \
+  /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/DribbbleTest/DribbleDownLoadManager.h

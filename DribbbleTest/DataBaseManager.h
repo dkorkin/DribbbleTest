@@ -14,6 +14,7 @@
 + (instancetype)sharedInstance;
 
 - (Shot *)shotById:(NSNumber *)shotId;
+- (NSNumber *)getMaxShotId;
 - (NSArray *)shotsArrayFromDataBase;
 - (void) fillDataBaseFromPlist:(NSString *) plistName;
 

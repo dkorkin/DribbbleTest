@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DribbleDownLoadManager.h"
 
 @implementation AppDelegate
 
@@ -20,7 +21,7 @@
     
     //Fill shots from Plist to DB
     //[[DataBaseManager sharedInstance] fillDataBaseFromPlist:@"ShotsPList"];
-    //[[DribbleDownLoadManager sharedInstance] requestForShotsFromPages:@[@1, @2]];
+    [[DribbleDownLoadManager sharedInstance] requestForShotsFromPages:@[@1, @2]];
     
     self.tabBarController = [self tabBarControllerInitialisationWithItems:[self tabBarItems]];
     self.window.rootViewController = self.tabBarController;

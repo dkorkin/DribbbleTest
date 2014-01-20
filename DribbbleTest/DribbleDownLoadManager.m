@@ -9,6 +9,10 @@
 #import "DribbleDownLoadManager.h"
 #import "AFNetworking.h"
 #import "GCDSingleton.h"
+#import "SBJson4.h"
+#import "PListManager_Private.h"
+#import "Shot.h"
+#import "DataBaseManager.h"
 
 NSInteger const kShotsPerPage = 25;
 
@@ -35,28 +39,18 @@ NSInteger const kShotsPerPage = 25;
 }
 
 - (void)requestForShotsFromPages:(NSArray *)pages {
-//    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-//    [manager GET:@"http://api.dribbble.com/shots/everyone"
-//      parameters:nil
-//         success:^(AFHTTPRequestOperation *operation, id responseObject) {
-//             NSLog(@"JSON: %@", responseObject);
-//         }failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-//             NSLog(@"Error: %@", error);
-//         }
-//     ];
-    
- 
-    
-    NSOperationQueue *networkQueue = [[NSOperationQueue alloc] init];
-    networkQueue.maxConcurrentOperationCount = 5;
-    
-    NSMutableArray *operations = [NSMutableArray new];
-    for (NSNumber *pageNumber in pages) {
-        [operations addObject:[self shotOperationForPageNumber:pageNumber]];
+    if([[[DataBaseManager sharedInstance] shotsArrayFromDataBase] count] < 50) {
+        NSOperationQueue *networkQueue = [[NSOperationQueue alloc] init];
+        networkQueue.maxConcurrentOperationCount = 5;
+        
+        NSMutableArray *operations = [NSMutableArray new];
+        for (NSNumber *pageNumber in pages) {
+            [operations addObject:[self shotOperationForPageNumber:pageNumber]];
+        }
+        [networkQueue addOperations:operations waitUntilFinished:YES];
+        AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+        [manager setOperationQueue:networkQueue];
     }
-    [networkQueue addOperations:operations waitUntilFinished:YES];
-    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    [manager setOperationQueue:networkQueue];
 }
 
 - (AFHTTPRequestOperation *)shotOperationForPageNumber:(NSNumber *)page {
@@ -67,13 +61,32 @@ NSInteger const kShotsPerPage = 25;
     AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
     
     [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
-        
-        NSString *string = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
-        NSLog(@"%@", string);
+
+        NSError *e = nil;
+        NSDictionary *jsonDictionary = [NSJSONSerialization JSONObjectWithData: responseObject
+                                                                       options: NSJSONReadingMutableContainers
+                                                                         error: &e];
+
+        NSArray *shots = [jsonDictionary objectForKey:@"shots"];
+        [self dateBaseFiller:shots];
+       
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"%s: AFHTTPRequestOperation error: %@", __FUNCTION__, error);
     }];
     return operation;
+}
+
+- (void)dateBaseFiller:(NSArray *)shots {
+    for (NSDictionary* dictionary in shots) {
+        NSLog(@"%@", dictionary);
+        NSInteger newShotID = [[[DataBaseManager sharedInstance] getMaxShotId] integerValue] + 1;
+        NSNumber *shotId =[NSNumber numberWithInteger:newShotID];
+        Shot *newShot = [Shot MR_createEntity];
+        newShot.shotId = shotId;
+        newShot.title = [dictionary objectForKey:@"title"];
+        newShot.imageUrl = [dictionary objectForKey:@"image_url"];
+    }
+    [[NSManagedObjectContext MR_defaultContext] saveToPersistentStoreAndWait];
 }
 
 @end

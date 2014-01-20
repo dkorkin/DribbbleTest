@@ -37,6 +37,13 @@ static DataBaseManager *_sharedInstance = nil;
 }
 
 
+- (NSNumber *)getMaxShotId {
+    NSArray *shots = [self shotsArrayFromDataBase];
+    NSNumber* maxId = [shots valueForKeyPath:@"@max.shotId"];
+    return maxId;
+}
+
+
 #pragma mark -
 #pragma mark - fill data base
 

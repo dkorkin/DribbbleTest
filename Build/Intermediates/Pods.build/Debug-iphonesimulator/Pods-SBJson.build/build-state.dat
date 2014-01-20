@@ -199,7 +199,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc7f4c8cf728db841^ce8ad8cf728db841^---0#1#1#--18"Check dependencies36"B39BA5E9-9101-45E9-AF7C-18B88770C451-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc95a23eb7a8db841^3b73e3eb7a8db841^---0#1#1#--18"Check dependencies36"62A06E6A-2228-4261-A135-C534D3AB4F68-
 
 CCompileC /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SBJson.build/Objects-normal/i386/Pods-SBJson-dummy.o /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Pods-SBJson-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s411922846.705153

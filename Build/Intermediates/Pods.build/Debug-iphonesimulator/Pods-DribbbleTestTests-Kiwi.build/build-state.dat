@@ -1895,7 +1895,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies5050d2c9728db841^1806d4c9728db841^---0#1#1#--18"Check dependencies36"4A387F89-D7B5-47F9-A2C2-9B4D3AE88724-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc45b03c57a8db841^ea7947c57a8db841^---0#1#1#--18"Check dependencies36"9976BBA4-D436-4697-94B8-57BEC1562F8F-
 
 CCompileC /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-DribbbleTestTests-Kiwi.build/Objects-normal/i386/KWAfterAllNode.o /Users/dkorkin/Documents/Projects/Dribble2/DribbbleTest/Pods/Kiwi/Classes/Nodes/KWAfterAllNode.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s411922998.003653
