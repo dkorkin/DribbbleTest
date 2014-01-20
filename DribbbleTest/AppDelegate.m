@@ -12,12 +12,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [MagicalRecord setupAutoMigratingCoreDataStack];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    //Fill shots from Plist to DB
+    //[[DataBaseManager sharedInstance] fillDataBaseFromPlist:@"ShotsPList"];
+    //[[DribbleDownLoadManager sharedInstance] requestForShotsFromPages:@[@1, @2]];
+    
     self.tabBarController = [self tabBarControllerInitialisationWithItems:[self tabBarItems]];
     self.window.rootViewController = self.tabBarController;
+    
+
     return YES;
 }
 
@@ -29,19 +37,19 @@
 }
 
 -(NSArray *) tabBarItems {
-//    ShotViewController *shotVC = [ShotViewController new];
-//    shotVC.tabBarItem.title = @"Shots";
-//    shotVC.tabBarItem.image = [UIImage imageNamed:@"MobileMailSettings_mailbox@2x"];
-//    
-//    FavoritesViewController *favoritesVC = [FavoritesViewController new];
-//    favoritesVC.tabBarItem.title = @"Favorites";
-//    favoritesVC.tabBarItem.image = [UIImage imageNamed:@"ABFavoriteBadge@2x"];
+    ShotViewController *shotVC = [ShotViewController new];
+    shotVC.tabBarItem.title = @"Shots";
+    shotVC.tabBarItem.image = [UIImage imageNamed:@"MobileMailSettings_mailbox@2x"];
+    
+    FavoritesViewController *favoritesVC = [FavoritesViewController new];
+    favoritesVC.tabBarItem.title = @"Favorites";
+    favoritesVC.tabBarItem.image = [UIImage imageNamed:@"ABFavoriteBadge@2x"];
     
     SettingsViewController *settingsVC = [SettingsViewController new];
     settingsVC.tabBarItem.title = @"Settings";
     settingsVC.tabBarItem.image = [UIImage imageNamed:@"settings-icon1@2x"];
     
-    return [[NSArray alloc]initWithObjects:settingsVC,nil];
+    return [[NSArray alloc]initWithObjects:shotVC, favoritesVC, settingsVC,nil];
     
 }
 

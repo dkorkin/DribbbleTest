@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FavoritesViewController.h"
+#import "ShotViewController.h"
 #import "SettingsViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
